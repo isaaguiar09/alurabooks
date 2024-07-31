@@ -1,14 +1,14 @@
 :root {
-    --cor-de-fundo: #012243;
+    --cor-de-fundo: #979899;
 }
 
 
 .corpo {
-    background-color: #012243;
+    background-color: var(--cor-de-fundo);
 }
 
 .texto1 {
 
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(51, 80, 225);
 
 }
