@@ -5,7 +5,7 @@
     --cor-de-fundo: #ced0d2;
     --branco: #fcfffc;
     --laranja: #fccb4d;
-    --azul-degrade: linear-gradient(97.54deg, #002f52 35,49%, #326589 165,37%);
+    --azul-degrade: linear-gradient(rgb(3, 12, 86), rgb(31, 116, 235));;
 }
 
 
