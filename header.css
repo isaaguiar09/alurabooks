@@ -3,6 +3,7 @@
     width: 24px;
     height: 24px;
     background-image: url( "/Menu\ -\ Copia.svg" );
+    background-position: center;
     display: inline-block;
 
 }
@@ -18,5 +19,11 @@
 
     display: flex;
     align-items: center;
+
+}
+
+.container-img{
+
+    padding: 1em;
 
 }
