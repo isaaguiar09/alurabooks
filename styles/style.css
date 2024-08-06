@@ -6,11 +6,15 @@
     --branco: #fcfffc;
     --laranja: #fccb4d;
     --azul-degrade: linear-gradient(rgb(3, 12, 86), rgb(31, 116, 235));
+    --fonte-principal: "Poppins";
 }
 
 
 body {
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .texto1 {
