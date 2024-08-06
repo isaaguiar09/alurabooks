@@ -50,5 +50,6 @@
     -webkit-background-clip: text;
     background-clip: text;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
