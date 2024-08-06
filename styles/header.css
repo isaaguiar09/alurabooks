@@ -33,7 +33,7 @@
 
 .container-botao:checked~.lista-menu{
     display: block;
-    box-decoration-break: none;
+    text-decoration: none;
 }
 
 .lista-menu-titulo,
