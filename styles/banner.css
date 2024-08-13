@@ -1,0 +1,10 @@
+.banner {
+    background: var(--azul-degrade);
+    color: var(--branco);
+    text-align: center;
+}
+
+.bannertitulo{
+    font-size: 18px;
+    font-weight: 700;
+}
