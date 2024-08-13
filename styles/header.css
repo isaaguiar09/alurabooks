@@ -42,6 +42,10 @@
     -moz-appearance: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .lista-menu-titulo,
 .lista-menu-item {
     padding: 1em;
