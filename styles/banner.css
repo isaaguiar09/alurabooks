@@ -23,3 +23,12 @@
     padding: 1em;
     width: 50%;
 }
+
+,.bannerpesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--branco);
+    text-align: center;
+    background: url(../img/lupa);
+}
