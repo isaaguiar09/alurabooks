@@ -35,6 +35,9 @@
 .container-botao:checked~.lista-menu{
     display: block;
     text-decoration: none;
+}
+
+.container-botao{
     -webkit-appearance: none;
 }
 
