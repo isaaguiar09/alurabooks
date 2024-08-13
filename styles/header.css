@@ -45,6 +45,7 @@
 .lista-menu-titulo{
     color: var(--laranja);
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 .lista-menu-link{
@@ -53,5 +54,6 @@
     background-clip: text;
     text-transform: uppercase;
     text-decoration: none;
+    font-weight: 700;
 }
 
