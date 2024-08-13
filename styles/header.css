@@ -5,6 +5,7 @@
     background-image: url( "../img/Menu\ -\ Copia.svg" );
     background-position: center;
     display: inline-block;
+    text-decoration: none;
 }
 
 .cabecalho {
