@@ -39,6 +39,7 @@
 
 .container-botao{
     -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 .lista-menu-titulo,
