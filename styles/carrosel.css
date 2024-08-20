@@ -9,10 +9,15 @@
 }
 
 .swiper-slide img{
-    width: 25%;
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
 }
 
 .swiper-pagination{
     position: initial;
-    margin: 0.5em 0;
+    margin: .5em 0;
 }
