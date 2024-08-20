@@ -28,9 +28,9 @@
 .lista-menu {
     display: none;
     position: absolute;
-    top: 90%;
+    top: 78%;
     width: 80%;
-    left: 0;
+    padding: 0;
 }
 
 .container-botao:checked~.lista-menu {
