@@ -6,7 +6,6 @@
     background-repeat: no-repeat;
     display: inline-block;
     text-decoration: none;
-    margin-right: 3px;
 }
 
 .cabecalho {
@@ -23,7 +22,7 @@
 }
 
 .container-img{
-    margin: 6px;
+    padding: 0.5em;
 }
 
 .lista-menu {
