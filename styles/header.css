@@ -1,5 +1,4 @@
 .cabecalho_menuhamburguer {
-
     width: 24px;
     height: 24px;
     background-image: url( "../img/Menu\ -\ Copia.svg" );
@@ -7,6 +6,7 @@
     background-repeat: no-repeat;
     display: inline-block;
     text-decoration: none;
+    margin: 4px;
 }
 
 .cabecalho {
@@ -23,7 +23,7 @@
 }
 
 .container-img{
-    margin: 5px;
+    margin: 3px;
 }
 
 .lista-menu {
