@@ -20,11 +20,10 @@
 .container {
     display: flex;
     align-items: center;
-    padding: 3px;
 }
 
 .container-img{
-    padding: 1em;
+    padding: 2px;
 }
 
 .lista-menu {
