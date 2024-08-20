@@ -2,16 +2,6 @@
 @import url("styles/banner.css");
 @import url("styles/carrosel.css");
 
-body {
-    font-size: 16px;
-}
-
-@media only screen and (max-width: 600px) {
-    body{
-        font-size: 14px;
-    }
-}
-
 :root {
     --cor-de-fundo: #ced0d2;
     --branco: #fcfffc;
