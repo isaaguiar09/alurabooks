@@ -20,7 +20,7 @@
     border: 1px solid var(--branco);
     color: var(--branco);
     border-radius: 24px;
-    padding: 2em;
+    padding: 1em;
     width: 100%;
 }
 
@@ -30,5 +30,4 @@
     font-size: 14px;
     text-align: center;
     background: url("../img/Lupa.svg") no-repeat;
-    background-position: 5em;
 }
