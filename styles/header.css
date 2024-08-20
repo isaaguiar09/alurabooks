@@ -6,8 +6,6 @@
     background-repeat: no-repeat;
     display: inline-block;
     text-decoration: none;
-    margin-right: 4px;
-}
 
 .cabecalho {
     background-color: var(--branco);
@@ -23,7 +21,7 @@
 }
 
 .container-img{
-    margin: 5px;
+    margin: 6px;
 }
 
 .lista-menu {
