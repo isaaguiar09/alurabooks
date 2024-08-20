@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     display: inline-block;
     text-decoration: none;
-    margin: 4px;
+    margin-right: 4px;
 }
 
 .cabecalho {
@@ -23,7 +23,7 @@
 }
 
 .container-img{
-    margin: 3px;
+    margin: 5px;
 }
 
 .lista-menu {
