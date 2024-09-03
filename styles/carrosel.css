@@ -1,3 +1,4 @@
+/* Estilo para o título do carrossel */
 .carroseltitulo {
     color: var(--laranja);
     background-color: var(--branco);
@@ -5,19 +6,23 @@
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 700;
-    padding: 1em 0 1em 0;
+    padding: 1em 0;
 }
 
-.swiper-slide img{
-    width: 50%;
+/* Estilo para as imagens dentro dos slides do swiper */
+.swiper-slide img {
+    width: 100%; /* Ajustado para 100% para que as imagens se ajustem melhor ao contêiner */
+    height: auto; /* Mantém a proporção da imagem */
 }
 
+/* Estilo para os botões de navegação do swiper */
 .swiper-button-prev,
 .swiper-button-next {
-    display: none;
+    display: none; /* Esconde os botões de navegação */
 }
 
-.swiper-pagination{
-    position: initial;
-    margin: .5em 0;
+/* Estilo para a paginação do swiper */
+.swiper-pagination {
+    position: static; /* 'static' é mais apropriado do que 'initial' para posicionamento padrão */
+    margin: 0.5em auto; /* Centraliza a paginação horizontalmente e adiciona espaçamento vertical */
 }

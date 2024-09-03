@@ -1,3 +1,4 @@
+/* Estilo para a seção do banner */
 .banner {
     background: var(--azul-degrade);
     color: var(--branco);
@@ -5,17 +6,21 @@
     padding: 2.5em 2em;
 }
 
-.bannertitulo{
+/* Estilo para o título do banner */
+.bannertitulo {
     font-size: 18px;
     font-weight: 700;
+    margin-bottom: 0.5em; /* Adiciona um pouco de espaço abaixo do título */
 }
 
+/* Estilo para o texto do banner */
 .bannertexto {
     font-weight: 500;
-    margin: 1em0;
+    margin: 1em 0; /* Corrige a sintaxe do valor de margem para separar verticalmente */
 }
 
-.bannerpesquisa{
+/* Estilo para o campo de pesquisa do banner */
+.bannerpesquisa {
     background-color: transparent;
     border: 1px solid var(--branco);
     color: var(--branco);
@@ -23,13 +28,17 @@
     width: 100%;
     text-align: center;
     padding: 4px;
+    font-size: 14px; /* Adiciona o tamanho da fonte para manter a consistência */
 }
 
+/* Estilo para o placeholder do campo de pesquisa */
 .bannerpesquisa::placeholder {
     font-family: var(--fonte-principal);
     font-weight: 400;
     font-size: 14px;
+    color: var(--branco); /* Define a cor do texto do placeholder para corresponder ao texto do campo de pesquisa */
     text-align: center;
     background: url("../img/Lupa.svg") no-repeat;
-    background-position: 3px;
+    background-position: 3px center; /* Centraliza verticalmente o ícone */
+    padding-left: 25px; /* Adiciona espaço para o ícone não sobrepor o texto */
 }
