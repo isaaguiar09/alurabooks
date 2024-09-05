@@ -26,3 +26,8 @@
     position: static; /* 'static' é mais apropriado do que 'initial' para posicionamento padrão */
     margin: 0.5em auto; /* Centraliza a paginação horizontalmente e adiciona espaçamento vertical */
 }
+
+.card-descricao{
+    display: flex;
+    justify-content: space-between;
+}
