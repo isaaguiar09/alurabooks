@@ -80,6 +80,8 @@
     width: 140px;
     display: flex;
     justify-content: center;
+    border-radius: 20px;
+    margin-top: -10px;
 }
 
 .descricao-img{
@@ -87,6 +89,9 @@
     display: flex;
     height: 150px;
     margin-top: 30px;
+    border-radius: 20px;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 0px -24px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 0px -24px rgba(0,0,0,0);
 }
 
 ul {
