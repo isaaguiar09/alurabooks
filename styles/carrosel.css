@@ -40,6 +40,10 @@
 
 .btn{
     display: flex;
+    display: flex;
+    justify-content: initial;
+    margin-left: -55px;
+    margin-top: -7px;
 }
 
 .card{
@@ -67,7 +71,7 @@
 }
 
 .btn-item{
-    margin: 0 0.5em;
+    margin: 0 5px;
 }
 
 .btn-ancora{
