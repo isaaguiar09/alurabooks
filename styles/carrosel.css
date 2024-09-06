@@ -72,13 +72,19 @@
 
 .btn-ancora{
     background-color: var(--laranja);
-    padding: 1em 2.2em;
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+    height: 50px;
+    align-items: center;
+    width: 140px;
+    display: flex;
+    justify-content: center;
 }
 
 .descricao-img{
-    width: 200px;
+    width: 140px;
     display: flex;
+    height: 150px;
+    margin-top: 30px;
 }
