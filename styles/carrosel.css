@@ -80,4 +80,5 @@
 
 .descricao-img{
     width: 200px;
+    display: flex;
 }
