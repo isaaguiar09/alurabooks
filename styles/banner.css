@@ -11,6 +11,8 @@
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 0.5em; /* Adiciona um pouco de espaço abaixo do título */
+    color: var(--laranja);
+    text-decoration: overline;
 }
 
 /* Estilo para o texto do banner */

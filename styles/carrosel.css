@@ -7,6 +7,8 @@
     font-size: 16px;
     font-weight: 700;
     padding: 1em 0;
+    border: 2px solid var(--azul-degrade);
+    -webkit-box-shadow: 0px 2px 1px 0px var(--azul-degrade);
 }
 
 /* Estilo para as imagens dentro dos slides do swiper */
