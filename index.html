@@ -82,10 +82,67 @@
 
             <div class="card-btn">
                 <ul class="btn">
-                <li class="btn-item"><img src="img/Favoritos - Copia (3).svg" alt="favoritar"></li>
-                <li class="btn-item"><img src="img/Compras - Copia - Copia (2).svg" alt="adicionar"></li>
-            </ul>
-            <a href="#" class="btn-ancora">Saiba mais</a>
+                    <li class="btn-item"><img src="img/Favoritos - Copia (3).svg" alt="favoritar"></li>
+                    <li class="btn-item"><img src="img/Compras - Copia - Copia (2).svg" alt="adicionar"></li>
+                </ul>
+                <a href="#" class="btn-ancora">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <section class="carrosel">
+        <h2 class="carroseltitulo">Mais vendidos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/ApacheKafka - Copia (2).png" alt="ApacheKafka"></div>
+                <div class="swiper-slide"><img src="img/Liderança - Copia (2).png" alt="Liderança"></div>
+                <div class="swiper-slide"><img src="img/Javascript - Copia (2).png" alt="Javascript"></div>
+                <div class="swiper-slide"><img src="img/Guia Front-end - Copia (3).png" alt="Front-end"></div>
+                <div class="swiper-slide"><img src="img/Portugol - Copia.png" alt="Portugol"></div>
+                <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Acessibilidade"></div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+            <div class="card-descricao">
+                <div class="descricao">
+                    <h3 class="titulo-descricao">Talvez você também se interesse por...</h3>
+                    <h2 class="titulo-descricao-livro">Angular 11 e Firebase</h2>
+                    <p class="texto-descricao">Construindo uma aplicação integrada com a plataforma do Google</p>
+                </div>
+                <img src="img/Angular - Copia (2).png" class="descricao-img">
+            </div>
+
+            <div class="card-btn">
+                <ul class="btn">
+                    <li class="btn-item"><img src="img/Favoritos - Copia (3).svg" alt="favoritar"></li>
+                    <li class="btn-item"><img src="img/Compras - Copia - Copia (2).svg" alt="adicionar"></li>
+                </ul>
+                <a href="#" class="btn-ancora">Saiba mais</a>
             </div>
         </div>
     </section>
