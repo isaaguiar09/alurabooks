@@ -22,18 +22,10 @@
             </label>
             <ul class="lista-menu">
                 <li class="lista-menu-titulo">Categorias</li>
-                <li class="lista-menu-item">
-                    <a href="#" class="lista-menu-link">Programação</a>
-                </li>
-                <li class="lista-menu-item">
-                    <a href="#" class="lista-menu-link">Front-end</a>
-                </li>
-                <li class="lista-menu-item">
-                    <a href="#" class="lista-menu-link">Infraestrutura</a>
-                </li>
-                <li class="lista-menu-item">
-                    <a href="#" class="lista-menu-link">Design & UX</a>
-                </li>
+                <li class="lista-menu-item"><a href="#" class="lista-menu-link">Programação</a></li>
+                <li class="lista-menu-item"><a href="#" class="lista-menu-link">Front-end</a></li>
+                <li class="lista-menu-item"><a href="#" class="lista-menu-link">Infraestrutura</a></li>
+                <li class="lista-menu-item"><a href="#" class="lista-menu-link">Design & UX</a></li>
             </ul>
             <img src="img/Logo - Copia (2).png" alt="Logo AluraBooks" class="container-img">
         </div>
@@ -48,13 +40,11 @@
         <p class="bannertexto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="bannerpesquisa" placeholder="Qual será a sua próxima leitura?">
     </section>
+
     <section class="carrosel">
         <h2 class="carroseltitulo">Novos lançamentos</h2>
-        <!-- Slider main container -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
+        <div class="swiper swiper-novos">
             <div class="swiper-wrapper">
-                <!-- Slides -->
                 <div class="swiper-slide"><img src="img/ApacheKafka - Copia (2).png" alt="ApacheKafka"></div>
                 <div class="swiper-slide"><img src="img/Liderança - Copia (2).png" alt="Liderança"></div>
                 <div class="swiper-slide"><img src="img/Javascript - Copia (2).png" alt="Javascript"></div>
@@ -62,10 +52,7 @@
                 <div class="swiper-slide"><img src="img/Portugol - Copia.png" alt="Portugol"></div>
                 <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Acessibilidade"></div>
             </div>
-
             <div class="swiper-pagination"></div>
-
-            <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
@@ -79,7 +66,6 @@
                 </div>
                 <img src="img/Angular - Copia (2).png" class="descricao-img">
             </div>
-
             <div class="card-btn">
                 <ul class="btn">
                     <li class="btn-item"><img src="img/Favoritos - Copia (3).svg" alt="favoritar"></li>
@@ -90,9 +76,26 @@
         </div>
     </section>
 
+    <section class="carrosel">
+        <h2 class="carroseltitulo">Mais vendidos</h2>
+        <div class="swiper swiper-mais">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/ApacheKafka - Copia (2).png" alt="ApacheKafka"></div>
+                <div class="swiper-slide"><img src="img/Liderança - Copia (2).png" alt="Liderança"></div>
+                <div class="swiper-slide"><img src="img/Javascript - Copia (2).png" alt="Javascript"></div>
+                <div class="swiper-slide"><img src="img/Guia Front-end - Copia (3).png" alt="Front-end"></div>
+                <div class="swiper-slide"><img src="img/Portugol - Copia.png" alt="Portugol"></div>
+                <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Acessibilidade"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        const swiper = new Swiper('.swiper', {
+        const swiperNovos = new Swiper('.swiper-novos', {
             spaceBetween: 10,
             slidesPerView: 3,
             pagination: {
@@ -104,32 +107,8 @@
                 prevEl: '.swiper-button-prev',
             },
         });
-    </script>
-    <section class="carrosel">
-        <h2 class="carroseltitulo">Mais vendidos</h2>
-        <!-- Slider main container -->
-        <div class="swiper-2">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="img/ApacheKafka - Copia (2).png" alt="ApacheKafka"></div>
-                <div class="swiper-slide"><img src="img/Liderança - Copia (2).png" alt="Liderança"></div>
-                <div class="swiper-slide"><img src="img/Javascript - Copia (2).png" alt="Javascript"></div>
-                <div class="swiper-slide"><img src="img/Guia Front-end - Copia (3).png" alt="Front-end"></div>
-                <div class="swiper-slide"><img src="img/Portugol - Copia.png" alt="Portugol"></div>
-                <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Acessibilidade"></div>
-            </div>
 
-            <div class="swiper-pagination"></div>
-
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper-2', {
+        const swiperMais = new Swiper('.swiper-mais', {
             spaceBetween: 10,
             slidesPerView: 3,
             pagination: {
